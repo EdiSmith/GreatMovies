@@ -1,6 +1,21 @@
 /* Resetando */
+/* Estilização geral */
 * {
     background-color: black;
+    
+}
+
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+p{
+    color: white;
 }
 
 
@@ -10,11 +25,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
+
 
 .container {
 
-    margin-inline: 150px;
+    margin-inline: auto;
+    padding-inline: 20px;
+    max-width: 1200px;
 
 }
 
@@ -38,6 +58,29 @@
 
 }
 
+/* Estilização condicional */
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #buscar {
+        width: 100%;
+    }
+
+    .abc {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
 /* Estilizando a primeira secção */
 
 .abc {
@@ -48,9 +91,9 @@
 
 }
 
-.letra{
+.letra {
 
-    width: 30px;
+    flex: 1 1 auto;
     height: 20px;
     padding-inline: 10px;
     padding-block: 10px;
@@ -61,6 +104,65 @@
     text-align: center;
     color: white;
 
-    
+
+}
+/* Estilizando a secção últimas novidades */
+.last-new{
+    display: flex;
+    margin-top: 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
+.last-update{
+    display: flex;
+    margin-top: 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.img{
+    
+    height: 130px;
+    width: 170px;
+    border-radius: 10px;
+    display: block;
+
+}
+/* .img-1{
+    
+    height: 250px;
+    width: 100%;
+    border-radius: 3px;
+    display: block;
+
+}
+
+    */ 
+
+    .bainner {
+        background-image: url('../acess/R.jpeg'); 
+        filter: brightness(60%);
+        background-size: cover ;
+        background-position: center;
+        height: 300px;              
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        
+      } 
+      .texto-bainner{
+        background-color:rgba(255, 216, 216, 0); 
+        text-align: start;
+        padding: 20px;
+        color: white;
+      }
+      .nada{
+        background-color:rgba(255, 216, 216, 0); 
+
+      }
+    
