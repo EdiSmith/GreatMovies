@@ -24,4 +24,4 @@
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/usite-filmes.git
+  https://github.com/EdiSmith/GreatMovies.git
