@@ -1,0 +1,66 @@
+/* Resetando */
+* {
+    background-color: black;
+}
+
+
+/* Estilizando o header */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+
+    margin-inline: 150px;
+
+}
+
+.BarraNav {
+    color: white;
+    margin-inline: 20px;
+}
+
+#logo {
+    color: rgb(5, 117, 192);
+}
+
+#buscar {
+    width: 200px;
+    padding: 10px 15px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 10px;
+    background-color: #262e36;
+
+
+}
+
+/* Estilizando a primeira secção */
+
+.abc {
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.letra{
+
+    width: 30px;
+    height: 20px;
+    padding-inline: 10px;
+    padding-block: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 11px;
+    background-color: #171818;
+    text-align: center;
+    color: white;
+
+    
+}
+
