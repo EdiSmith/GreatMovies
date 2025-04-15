@@ -1,27 +1,45 @@
-# 🎬 GreatMovies - Plataforma Simples para Ver Filmes
+# Ani.me - Plataforma de Catálogo e Atualizações de Animes
+Ani.me é um site moderno e dinâmico voltado para amantes de animes. A plataforma permite explorar animes por ordem alfabética, acompanhar os episódios mais recentes, visualizar novidades e descobrir novos lançamentos.
 
-**Usite** é um projeto web simples desenvolvido para permitir que os usuários visualizem uma lista de filmes, obtenham informações básicas sobre cada um deles e possam explorar trailers ou sinopses. É ideal como projeto de estudo ou base para algo maior.
+🚀 Funcionalidades
+🏠 Página Inicial com Destaques: Banner com novidades em destaque, como novas temporadas ou notícias de animes populares.
 
-## 🌐 Tecnologias Utilizadas
+🔤 Navegação Alfabética: Seção com filtro por letras (A-Z) para encontrar animes de forma rápida.
 
-- HTML5
-- CSS3
-- JavaScript (puro ou com alguma biblioteca/framework, se aplicável)
-- [Opcional] API externa para dados de filmes (ex: The Movie Database - TMDB)
+🆕 Últimas Novidades: Área que destaca as notícias mais recentes do mundo dos animes.
 
-## 📸 Capturas de Tela
+🔁 Últimas Atualizações: Lista atualizada dos episódios adicionados recentemente à plataforma.
 
-*(Insira aqui imagens do projeto em funcionamento, se possível)*
+📺 Animes Recentes: Destaques de novos lançamentos adicionados à biblioteca.
 
-## ⚙️ Funcionalidades
+🔍 Barra de Pesquisa: Busca por nome diretamente na barra de navegação.
 
-- Listagem de filmes com imagem e título
-- Página com detalhes do filme (sinopse, avaliação, trailer, etc.)
-- Layout responsivo
-- Pesquisa por nome do filme
+🎨 Layout Responsivo: Interface adaptável para diferentes tamanhos de tela (em desenvolvimento futuro).
 
-## 🚀 Como Executar o Projeto
 
-1. Clone o repositório:
-   ```bash
+CSS3
+
+(Futuramente) JavaScript para interatividade
+
+(Opcional) Frameworks como React ou Vue.js para escalar funcionalidades
+
+🖼️ Demonstração
+
+Interface simples e organizada com foco no conteúdo.
+
+🔮 Futuras Implementações
+Página de detalhes para cada anime
+
+Player integrado para episódios
+
+Sistema de cadastro e login
+
+Filtro por gêneros
+
+Notificações de novos episódios
+
+📌 Observações
+Este projeto é uma base para uma plataforma de streaming fictícia voltada para animes. O conteúdo é apenas ilustrativo e não representa distribuição legal de animes reais.
+
+ Clone o repositório:
   https://github.com/EdiSmith/GreatMovies.git
