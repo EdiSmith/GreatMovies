@@ -2,19 +2,22 @@
 /* Estilização geral */
 * {
     background-color: black;
-    
+
 }
 
 h2 {
     color: white;
 }
+
 h3 {
     color: white;
 }
+
 h4 {
     color: white;
 }
-p{
+
+p {
     color: white;
 }
 
@@ -106,8 +109,9 @@ p{
 
 
 }
+
 /* Estilizando a secção últimas novidades */
-.last-new{
+.last-new {
     display: flex;
     margin-top: 2%;
     flex-wrap: wrap;
@@ -116,7 +120,7 @@ p{
     gap: 20px;
 }
 
-.last-update{
+.last-update {
     display: flex;
     margin-top: 2%;
     flex-wrap: wrap;
@@ -125,52 +129,80 @@ p{
     gap: 20px;
 }
 
-.episodios{
+.episodios {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.episodios h3{
+
+.episodios h3 {
 
     margin-top: -4%;
 }
-.episodios p{
+
+.episodios p {
 
     margin-top: -7%;
 }
-.img{
-    
+
+.img {
+
     height: 130px;
     width: 170px;
     border-radius: 10px;
     display: block;
-    
+
 
 }
 
 
-    .bainner {
-        background-image: url('../acess/R.jpeg'); 
-        filter: brightness(60%);
-        background-size: cover ;
-        background-position: center;
-        height: 300px;              
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-        
-        
-      } 
-      .texto-bainner{
-        background-color:rgba(255, 216, 216, 0); 
-        text-align: start;
-        padding: 20px;
-        color: white;
-       
-      }
-      .nada{
-        background-color:rgba(255, 216, 216, 0); 
+.bainner {
+    background-image: url('../acess/R.jpeg');
+    filter: brightness(60%);
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 
-      }
-    
+
+}
+
+.texto-bainner {
+    background-color: rgba(255, 216, 216, 0);
+    text-align: start;
+    padding: 20px;
+    color: white;
+
+}
+
+.nada {
+    background-color: rgba(255, 216, 216, 0);
+}
+
+#btn-VerMais {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #262e36;
+    color: white;
+    margin-top: 5%;
+
+
+}
+.btn-VerMais{
+    display: flex;
+    justify-content: center;
+}
+
+#DireitosAutor{
+    font-size: 10px;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
