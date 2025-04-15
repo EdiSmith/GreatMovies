@@ -109,7 +109,7 @@ p{
 /* Estilizando a secção últimas novidades */
 .last-new{
     display: flex;
-    margin-top: 10%;
+    margin-top: 2%;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -124,24 +124,30 @@ p{
     align-items: center;
     gap: 20px;
 }
+
+.episodios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.episodios h3{
+
+    margin-top: -4%;
+}
+.episodios p{
+
+    margin-top: -7%;
+}
 .img{
     
     height: 130px;
     width: 170px;
     border-radius: 10px;
     display: block;
-
-}
-/* .img-1{
     
-    height: 250px;
-    width: 100%;
-    border-radius: 3px;
-    display: block;
 
 }
 
-    */ 
 
     .bainner {
         background-image: url('../acess/R.jpeg'); 
@@ -154,12 +160,14 @@ p{
         align-items: center;
         position: relative;
         
+        
       } 
       .texto-bainner{
         background-color:rgba(255, 216, 216, 0); 
         text-align: start;
         padding: 20px;
         color: white;
+       
       }
       .nada{
         background-color:rgba(255, 216, 216, 0); 
