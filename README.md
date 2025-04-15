@@ -21,7 +21,7 @@ CSS3
 
 (Futuramente) JavaScript para interatividade
 
-(Opcional) Frameworks como React ou Vue.js para escalar funcionalidades
+(Opcional) Frameworks como Angular para escalar funcionalidades
 
 🖼️ Demonstração
 
